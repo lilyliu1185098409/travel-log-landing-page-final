@@ -1,0 +1,106 @@
+/*link to google font*/
+@import url("https://fonts.googleapis.com/css?family=Quattrocento|Raleway|Roboto&display=swap");
+
+/*link to components*/
+@import url("components/card.css");
+@import url("components/topnav.css");
+
+/*fonts and text*/
+
+body{
+	background-color: rgb(250,250,250,0.6);
+	font-family: 'Quattrocento', serif;
+	font-size: 18px;
+	color: #3F3F3F; 
+	text-align: justify;
+}
+
+h2{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bolder;
+	color: white;
+	padding: 25px 130px;
+}
+  
+h4, h5{
+    font-family: 'Raleway', sans-serif;
+	font-weight: bolder;
+	color: #508D24;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
+	color: #508D24;
+	font-size: 16px;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #3F3F3F;
+}
+
+.header{
+	margin: 30px auto;
+	width: 80%; 
+}
+
+.button{
+	margin-bottom: 25px;
+}
+.btn-green{
+	background-color: #508D24;
+	padding: 10px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
+
+}
+.btn-green:hover{
+	text-decoration:none;
+	background-color: #ddd;
+	color: #3F3F3F;
+}
+
+.stretched-link{
+	background-color: white;
+	padding: 10px;
+	margin: 30px;
+	border-radius: 5px;
+	color: #3F3F3F;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+
+}
+.stretched-link:hover{
+	text-decoration: none;
+	background-color: #ddd;
+	
+}
+
+.footer{
+	background-color: rgba(230,230,230,0.6);
+	background-size: cover;
+	text-align: center;
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 20px;
+}
+.list-inline i{
+	font-size: 40px;
+	color: #508D24;
+	margin: 20px 0px;
+}
+.list-inline i:hover{
+	color: #3F3F3F;
+}
+
+
